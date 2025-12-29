@@ -292,11 +292,18 @@
         Created By >
         <a href=""> Moneer Salmeen </a>
         <span class="copyright">&copy</span>
-        2021 All rights reserved.
+        <span id="year"></span> All rights reserved.
       </span>
     </footer>
     <!-- End footer section start -->
 
     <script src="script.js"></script>
+    
+    <script>
+    
+      // Update the copyright year dynamically
+       document.getElementById("year").textContent = new Date().getFullYear();
+       
+    </script>
   </body>
 </html>
